@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Good Mexican Eats | Menu</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html" aria-label="Go to home">
+        Good Mexican Eats <span class="logo-badge">GME</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link active" href="menu.html">Menu</a></li>
+        <li><a class="nav-link" href="specials.html">Specials</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="section-head">
+        <h2>Menu</h2>
+        <p>We are street food first but we have A few classic plates for when you want comfort mode.</p>
+      </div>
+
+    
+      <div class="filters" role="group" aria-label="Filter menu categories">
+        <button class="filter-btn active" type="button" data-filter="all">All</button>
+        <button class="filter-btn" type="button" data-filter="tacos">Tacos</button>
+        <button class="filter-btn" type="button" data-filter="burritos">Burritos</button>
+        <button class="filter-btn" type="button" data-filter="bowls">Bowls</button>
+        <button class="filter-btn" type="button" data-filter="sides">Sides</button>
+        <button class="filter-btn" type="button" data-filter="drinks">Drinks</button>
+        <button class="filter-btn" type="button" data-filter="plates">Plates</button>
+      </div>
+
+      <!-- Menu cards -->
+      <div class="menu-grid" id="menuGrid">
+      
+        <article class="menu-card" data-category="tacos">
+          <div class="card-top">
+            <span class="tag">Tacos</span><span class="price">$3.50 ea</span>
+          </div>
+          <h3>Street Taco (Choose protein)</h3>
+          <p>Onion + cilantro, lime, salsa of choice. (Chicken, steak, carnitas, or veggie.)</p>
+        </article>
+
+        <article class="menu-card" data-category="tacos">
+          <div class="card-top">
+            <span class="tag">Tacos</span><span class="price">$10</span>
+          </div>
+          <h3>Birria Taco Trio</h3>
+          <p>Crisped tortillas + consommé dip. </p>
+        </article>
+
+        <article class="menu-card" data-category="tacos">
+          <div class="card-top">
+            <span class="tag">Tacos</span><span class="price">$9</span>
+          </div>
+          <h3>Fish Taco Duo</h3>
+          <p>Crispy fish, slaw, crema, pico. </p>
+        </article>
+
+     
+        <article class="menu-card" data-category="burritos">
+          <div class="card-top">
+            <span class="tag">Burritos</span><span class="price">$9</span>
+          </div>
+          <h3>Carne Asada Burrito</h3>
+          <p>Steak, rice, beans, pico, cheese. Add a salsa of your choice</p>
+        </article>
+
+        <article class="menu-card" data-category="burritos">
+          <div class="card-top">
+            <span class="tag">Burritos</span><span class="price">$10</span>
+          </div>
+          <h3>Chicken Verde Burrito</h3>
+          <p>Chicken, verde sauce, rice, cheese, crema. </p>
+        </article>
+
+        <article class="menu-card" data-category="burritos">
+          <div class="card-top">
+            <span class="tag">Burritos</span><span class="price">$8</span>
+          </div>
+          <h3>Veggie Burrito</h3>
+          <p>Black beans, fajita veg, rice, pico, corn, </p>
+        </article>
+
+    
+        <article class="menu-card" data-category="bowls">
+          <div class="card-top">
+            <span class="tag">Bowls</span><span class="price">$11</span>
+          </div>
+          <h3>Loaded Nacho Bowl</h3>
+          <p>Chips, beans, pico, crema, queso, and a protein of your choice. </p>
+        </article>
+
+        <article class="menu-card" data-category="bowls">
+          <div class="card-top">
+            <span class="tag">Bowls</span><span class="price">$10</span>
+          </div>
+          <h3>Rice + Protein Bowl</h3>
+          <p>Rice, beans, pico, lettuce, cheese and a protein of your choice</p>
+        </article>
+
+    
+        <article class="menu-card" data-category="sides">
+          <div class="card-top">
+            <span class="tag">Sides</span><span class="price">$2</span>
+          </div>
+          <h3>Chips + Salsa</h3>
+          <p>Choose mild, roasted, verde, or hot.</p>
+        </article>
+
+        <article class="menu-card" data-category="sides">
+          <div class="card-top">
+            <span class="tag">Sides</span><span class="price">$3.50</span>
+          </div>
+          <h3>Street Corn Cup</h3>
+          <p>Corn, crema, cotija, lime, chili.</p>
+        </article>
+
+        <article class="menu-card" data-category="sides">
+          <div class="card-top">
+            <span class="tag">Sides</span><span class="price">$3</span>
+          </div>
+          <h3>Rice + Beans</h3>
+          <p>Simple and fulfilling</p>
+        </article>
+
+       
+        <article class="menu-card" data-category="drinks">
+          <div class="card-top">
+            <span class="tag">Drinks</span><span class="price">$3</span>
+          </div>
+          <h3>Jarritos</h3>
+          <p>Mandarin, lime, pineapple, tamarind.</p>
+        </article>
+
+        <article class="menu-card" data-category="drinks">
+          <div class="card-top">
+            <span class="tag">Drinks</span><span class="price">$4</span>
+          </div>
+          <h3>Horchata</h3>
+          <p>Sweet cinnamon rice drink. </p>
+        </article>
+
+    
+        <article class="menu-card" data-category="plates">
+          <div class="card-top">
+            <span class="tag">Plates</span><span class="price">$13</span>
+          </div>
+          <h3>Enchiladas Rojo</h3>
+          <p>Red sauce, cheese, side of rice + beans. </p>
+        </article>
+
+        <article class="menu-card" data-category="plates">
+          <div class="card-top">
+            <span class="tag">Plates</span><span class="price">$12</span>
+          </div>
+          <h3>Quesadilla Plate</h3>
+          <p>Large quesadilla + chips & salsa. </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>Combos & catering</h2>
+        <p></p>
+      </div>
+
+      <div class="table-wrap">
+        <table class="menu-table" id="comboTable">
+          <thead>
+            <tr>
+              <th>Option</th>
+              <th>Includes</th>
+              <th>Price</th>
+              <th>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Taco Combo</td>
+              <td>3 street tacos + chips & salsa</td>
+              <td>$8.50</td>
+              <td>Best value, fast pickup</td>
+            </tr>
+            <tr>
+              <td>Burrito Combo</td>
+              <td>Any burrito + drink</td>
+              <td>$9</td>
+              <td>Add queso for +$1</td>
+            </tr>
+            <tr>
+              <td>Nacho Party Tray</td>
+              <td>Large tray + toppings + salsa</td>
+              <td>$35</td>
+              <td>Serves 6–8 people</td>
+            </tr>
+            <tr>
+              <td>Taco Bar (Catering)</td>
+              <td>Tortillas, proteins, toppings, salsa</td>
+              <td>$10 / person</td>
+              <td>Minimum 10 people</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Good Mexican Eats •</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

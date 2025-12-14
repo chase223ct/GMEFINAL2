@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Good Mexican Eats | Specials</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html" aria-label="Go to home">
+        Good Mexican Eats <span class="logo-badge">GME</span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <li><a class="nav-link" href="menu.html">Menu</a></li>
+        <li><a class="nav-link active" href="specials.html">Specials</a></li>
+        <li><a class="nav-link" href="about.html">About</a></li>
+        <li><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="section">
+      <div class="section-head">
+        <h2>Weekly specials</h2>
+        <p>Three limited-time items. When they’re gone, they’re gone.</p>
+      </div>
+
+      <div class="specials-grid">
+        <article class="special-card">
+          <div class="special-top">
+            <span class="badge">Limited</span>
+            <span class="price">$10</span>
+          </div>
+          <h3>Birria Quesadilla</h3>
+          <p>Melty cheese + braised beef + consommé dip. </p>
+          <ul class="mini-list">
+            <li>Best with roasted salsa</li>
+            <li>Extra dip available</li>
+          </ul>
+        </article>
+
+        <article class="special-card">
+          <div class="special-top">
+            <span class="badge">Limited</span>
+            <span class="price">$10</span>
+          </div>
+          <h3>Al Pastor Taco Trio</h3>
+          <p>Pork + pineapple + onion + cilantro.</p>
+          <ul class="mini-list">
+            <li>Comes with lime + salsa</li>
+            <li>Add chips & salsa for +$2</li>
+          </ul>
+        </article>
+
+        <article class="special-card">
+          <div class="special-top">
+            <span class="badge">Limited</span>
+            <span class="price">$3</span>
+          </div>
+          <h3>Mango Agua Fresca</h3>
+          <p>Cold, fresh and not too sweet. </p>
+          <ul class="mini-list">
+            <li>Also available as “spicy mango”</li>
+            <li>Limited batch daily</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section accent">
+      <div class="special-box">
+        <div>
+          <h2>Deal generator</h2>
+          <p class="special-text" id="dealText">Click the button to reveal a random deal.</p>
+        </div>
+
+        <button class="btn primary" id="dealBtn" type="button">Reveal deal</button>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="two-col">
+        <div class="panel">
+          <h2>Quick promos</h2>
+          <ul class="bullet-list">
+            <li><strong>Taco Tuesday:</strong> $3 off any taco trio</li>
+            <li><strong>Combo Boost:</strong> add a drink to any burrito for +$1.50</li>
+            <li><strong>Family Pack:</strong> nacho tray + salsa + drink bundle</li>
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h2>Heads up</h2>
+          <p>
+            Specials rotate weekly. If you’re coming for a specific one, order ahead of time,
+            the limited batches dont last long!
+          </p>
+          <a class="text-link" href="menu.html">Back to the full menu →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Good Mexican Eats </p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
